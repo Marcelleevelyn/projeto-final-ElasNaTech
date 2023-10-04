@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/M (1).png">
+    <title>Fale Conosco</title>
+     <style>
+        body{
+            background-image: url(img/flores.jpg);
+            
+        }
+        /*Código do menu de navegação*/
+        .menu li{
+    list-style-type: none;
+    background-color: #E8D3B6;
+    display: inline-block;
+    padding: 0;
+    border-left: 1px left #e3c097;
+}
+.menu{
+    background-color:transparent;
+    text-align: center;
+    list-style-type: none;
+    border: 1px right #e3c097;
+    font-weight: bold;
+    width:  1300px;
+    margin-top: 2px;
+
+}
+.menu a{
+    background-color: #a4614e;
+    padding: 7px 14px;
+    display: block;
+    text-decoration: none;
+    color: white;
+
+}
+.menu a:hover{
+    background-color: black;
+    color: #fff;
+    text-shadow: 0px 0px 5px  white;
+    text-decoration: none;
+}
+/*Código da logo da loja */
+.logo{
+    float: right;
+    width: 70px;
+    height: 70px;
+}
+    /*código do formulário*/
+        h1{
+            color: maroon;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+        textarea{
+            resize: none;
+        }
+        label{
+            font-family: Arial, Helvetica, sans-serif;
+            color: maroon;
+        }
+        legend{
+            font-family: Arial, Helvetica, sans-serif;
+            color: maroon;
+        }
+        form{
+            width: 1000px;
+
+        }
+        .img-l{
+            width: 100px;
+            height: 100px;
+            float: left;
+        }
+        fieldset{
+            
+            margin-left: 300px;
+            margin-right: 0px;
+            background-color: #e8d3b6;
+
+        }
+           
+      iframe{
+        margin-left: 200px;
+      }
+      i{
+        float: right;
+        margin-left: 5px;
+      }
+      /*Código do rodapé da página */
+      footer{
+            background-color: #a4614e;
+    width: 99%;
+    height: 300px;
+    position: absolute;
+    margin-right: 400px;
+}
+.imagemcon{
+    width:40px;
+    height:40px;
+    margin-left:12px;
+}
+
+h5{
+    text-align: center;
+    color: white;
+}
+.links{
+    text-decoration: none;
+    color: white;
+} 
+.links a{
+    text-decoration: none;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+.div ul{
+    display: inline-block;
+}
+.div ul li{
+    display: block;
+}
+h6{
+    color: white;
+    font-size: 15px;
+}
+.contato{
+    color: white;
+}
+.rua{
+    margin-left: 10px;
+    text-align: center;
+}
+
+     
+.imagemcon{
+    width:40px;
+    height:40px;
+    margin-left:12px;
+}
+/*responsivo*/
+@media  screen and (min-width: 480px) {
+
+    .menu{
+        font-size: 35px;
+        
+    }
+   legend{
+    font-size: 50px;
+    
+
+   }
+   label{
+    font-size: 30px;
+   }
+    h1{
+        font-size: 150px;
+        padding: 30px;
+        display: flex;
+    }
+    .logo{
+        float: right;
+    }
+    fieldset{
+        width: 800px;
+        height: 800px;
+    }
+    footer{
+        width: 1500px;
+        height: 600px;
+   
+    }
+    h5{
+        font-size: 30px; 
+    }
+   h6{
+    font-size: 30px;
+   }
+}
+
+    </style>
+</head>
+<body>
+    <!--menu de navegação-->
+    <ul class="menu">
+        <li><a href="index.html" >Inicio </a></li>
+        <li><a href="produtos.html" > Produtos </a></li>
+        <li><a href="index_clientes.html"> Clientes</a></li>
+        <li><a href="404.html"> Fale Conosco</a></li>
+        <li><a href="index_sobre.html"> Manara</a></li>
+        <li> <a href="trabcn.html"> Trabalhe Conosco</a></li>
+
+  </ul>
+    <!--logo da loja-->
+    <img src="img/M (1).png" class="img-l"     alt="imagem da logo">
+    <h1> Quer ficar por dentro das nossas novidades? 
+             Inscreva-se! 
+    </h1>
+
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <!--código do formulário-->
+    <form>
+        <fieldset>
+            <legend> Dados:</legend>
+            <label for="nm"> Nome:</label>
+            <input type="text" id="nm" size="10" required> 
+            <br>
+            <br>
+            <label for="tel"> Telefone:</label>
+            <input type="text"  id="tel">
+            <br>
+            <br>
+            <label for="em"> Email:</label>
+            <input type="email" id="em" placeholder="meuemail@gmail.com" required>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br>
+           <label>Quer deixar alguma mensagem? Escreva-nos: </label> 
+            <br> <br>
+            <br> <br>
+            <br> <br><br>
+            
+          
+            
+        
+            <textarea name="mesg" cols="30" rows="10" maxlength="300"></textarea>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d869.2144717595856!2d-50.87653622343897!3d-29.37445003024592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95193259e53b2cbb%3A0xbc523181cf36cad2!2sAv.%20Borges%20de%20Medeiros%2C%203236c%20-%20Vila%20Suica%2C%20Gramado%20-%20RS%2C%2095670-000!5e0!3m2!1spt-BR!2sbr!4v1693596801259!5m2!1spt-BR!2sbr" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+        </fieldset>
+    </form>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br>
+    <!--rodapé da página-->
+    <footer>
+        <h5> &copy; 2023, Manara Moda Feminina </h5>
+        <div class="div"> 
+            <ul class="contato"> <h6>contato:</h6>
+                <li> (71) 98727-7055</li>
+                <li> marcelle.evelyn27@gmail.com</li>
+            </ul> 
+        <ul>
+            <h6> Redes sociais</h6>
+            <a href="https://github.com/Marcelleevelyn"><img src="img/GitHub-Mark.png" class="imagemcon"  alt="github"></a>
+            <a href="https://wa.me/5571987277055"><img src="img/WhatsApp-icone-3.png" class="imagemcon"  alt="whatsapp"></a>
+        </ul>
+        <br>
+        <h6 class="rua">Rua Paraíba, 2- Salvador, Ba </h6>
+        </div>
+    </footer>
+</body>
+
+</html>

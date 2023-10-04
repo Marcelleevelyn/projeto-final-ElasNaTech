@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(img/flores.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+   flex-wrap: wrap;
+   
+}
+.logo{
+    margin-bottom: 50px;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+   } 
+.card{
+    position: relative;
+    width: 320px;
+    height: 480px;
+    background-color:rgb(207,185,151);
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 15px 5px 30px 5px;
+}
+
+.card::before{
+    content: "";
+    position: absolute;
+    top: -50%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255,255,255);
+    transform: 0.5s;
+
+}
+
+.card:hover::before{
+    top: -70%;
+    transform: skewY(240deg);
+}
+
+
+
+.card::after{
+    content: "MODA";
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    font-weight: 600;
+    font-size: 6rem;
+    color: rgba(0, 0, 0, 0.1);
+}
+.card .imgBox{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    z-index: 1;
+}
+.roupas{
+
+height: 220px;
+width: auto;
+
+}
+.contentBox{
+    position: relative;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.contentBox h3{
+   font-size: 18px;
+   color: white;
+   font-weight: 500;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   margin-bottom: 5px;
+}
+
+.contentBox .price{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+.buy{
+    position: relative;
+    top: 100px;
+    opacity: 0;
+    font-weight: bold;
+    padding: 12px 30px 9px 30px;
+    margin-top: 18px;
+    color: #ccc;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.5s;
+
+}
+
+.card:hover  .contentBox .buy{
+    top: 0;
+    opacity: 1;
+
+}
+.card2{
+    position: relative;
+    width: 320px;
+    height: 480px;
+    background-color:rgb(207,185,151);
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+footer{
+    background-color: #a4614e;
+    position: relative;
+    width: 99%;
+    height: 200px;
+
+}
+h5{
+    text-align: center;
+    color: white;
+    padding: 4px;
+}
+h6{
+    color: white;
+    font-size: 15px;
+}
+footer ul{
+    display: inline-block;
+}
+footer ul li{
+    display: block;
+}
+.imagemcon{
+    width: 40px;
+    height: 40px;
+    margin-left: 12px;
+}
+.rua{
+    margin-left: 10px;
+    text-align: center;
+}
+.contato{
+    color: white;
+}
+.menu li{
+    list-style-type: none;
+    background-color: #E8D3B6;
+    display: inline-block;
+    padding: 0;
+    border-left: 1px left #e3c097;
+}
+.menu{
+    background-color:transparent;
+    text-align: center;
+    list-style-type: none;
+    font-weight: bold;
+    width:  1300px;
+    margin-top: 2px;
+
+}
+.menu a{
+    background-color: #a4614e;
+    padding: 7px 14px;
+    display: flex; 
+    text-decoration: none;
+    color: white;
+
+}
+.menu a:hover{
+    background-color: black;
+    color: #fff;
+    text-shadow: 0px 0px 5px  white;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 480px){
+    .logo{
+     width: 30px;
+
+     }
+     .rua{
+        padding: 60px;
+     }
+     footer{
+        height: 260px;
+     }
+     .menu li{
+        padding: 2px;
+        margin-bottom: 2px;
+     }
+}

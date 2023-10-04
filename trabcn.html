@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhe Conosco</title>
+    <link rel="icon" type="image/x-icon" href="img/M (1).png">
+    <style>
+        body{
+            background-image: url(img/flores.jpg);
+        }
+        /* código do menu de navegação */
+        .menu li{
+    list-style-type: none;
+    background-color: #E8D3B6;
+    display: inline-block;
+    padding: 0;
+    border-left: 1px left #e3c097;
+}
+.menu{
+    background-color:transparent;
+    text-align: center;
+    list-style-type: none;
+    border: 1px right #e3c097;
+    font-weight: bold;
+    width:  1300px;
+    margin-top: 2px;
+
+}
+.menu a{
+    background-color: #a4614e;
+    padding: 7px 14px;
+    display: block;
+    text-decoration: none;
+    color: white;
+
+}
+.menu a:hover{
+    background-color: black;
+    color: #fff;
+    text-shadow: 0px 0px 5px  white;
+    text-decoration: none;
+}
+/*código da logo da loja*/
+.logo{
+    float: left;
+    width: 70px;
+    height: 70px;
+   }   
+     /*código do formulário */
+        header{
+            text-align: center;
+            font-family:'Courier New', Courier, monospace ;
+            font-size: 50px;
+            color: maroon;
+        }
+        legend{
+          color: maroon; 
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        label{
+            color: maroon;
+            font-family: Arial, Helvetica, sans-serif;
+        
+        }
+        .btn{
+            background-color: maroon;
+            color: white;
+            cursor: pointer;
+            width: fit-content;
+            box-sizing: border-box;
+            border: 10px solid maroon;
+        }
+        .btn2{
+            background-color: maroon;
+            color: white;
+            cursor: pointer;
+            width: fit-content;
+            box-sizing: border-box;
+            border: 10px solid maroon;
+        }
+        textarea{
+            resize: none;
+            background-color: #e8b3b6;
+            color:black;}
+            a{
+            font-family: Arial, Helvetica, sans-serif;
+            color: brown;
+        
+        
+        }
+        i{
+        float: right;
+        margin-left: 5px;
+      }
+      fieldset{
+        margin-left: 200px;
+            margin-right: 200px;
+            background-color: #e8d3b6;
+
+      }
+      .btn{
+        margin-left: 200px;
+        
+      }
+      /*código do rodapé da página */
+      footer{
+    background-color: #a4614e;
+    width: 99%;
+    height: 300px;
+    position: absolute;
+    margin-left: 0;
+    margin-right: 200px;
+ 
+    
+     
+}
+h5{
+    text-align: center;
+    color: white;
+}
+.links{
+    text-decoration: none;
+    color: white;
+} 
+.links a{
+    text-decoration: none;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.div ul{
+    display: inline-block;
+}
+.div ul li{
+    display: block;
+}
+h6{
+    color: white;
+    font-size: 15px;
+}
+.contato{
+    color: white;
+}
+.rua{
+    margin-left: 10px;
+    text-align: center;
+}
+
+
+.imagemcon{
+    width:40px;
+    height:40px;
+    margin-left:12px;
+}
+/*responsivo*/
+@media screen and (min-width: 480px){
+    .menu{
+        font-size: 35px;
+    }
+    header{
+        font-size: 60px;
+    }
+    footer{
+        width: 1400px;
+        height: 600px;
+    }
+    h5{
+        font-size: 35px;
+    }
+    h6{
+        font-size: 30px;
+    }
+    fieldset{
+        width: 1000px;
+    }
+    legend{
+        font-size: 35px;
+    }
+    label{
+        font-size: 30px;
+    }
+    .btn{
+        font-family: 20px;
+    }
+    .btn2{
+        font-family: 20px;
+    }
+}
+ 
+    </style> 
+</head>
+<body>
+    <!--menu de navegação-->
+    <ul class="menu">
+        <li><a href="index.html" >Inicio </a></li>
+        <li><a href="produtos.html" > Produtos </a></li>
+        <li><a href="index_clientes.html"> Clientes</a></li>
+        <li><a href="404.html"> Fale Conosco</a></li>
+        <li><a href="index_sobre.html"> Manara</a></li>
+        <li> <a href="trabcn.html"> Trabalhe Conosco</a></li>
+
+
+  </ul>
+  <!--logo da loja-->
+  <img  src="img/M (1).png" class="logo" alt="imagem da logo"> 
+    <header> Quer fazer parte da nossa equipe?</header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--formulário-->
+    <fieldset>  
+        <legend> Preencha os campos abaixo:</legend> 
+        <br>
+        <br>
+         <nav>
+       <label for="name"> <li> Nome:</li></label>
+       <input type="text" id="name" size="35" required>
+       <br>
+       <br>
+        <label for="tel"><li>Telefone:</li></label>
+        <input type="text" id="tel" size="35" maxlength="9" required>
+       <br>
+       <br>
+        <label for="em"> <li> Email:</li></label>
+        <input type="text" id="em" size="35" placeholder="meuemail@gmail.com" required>
+         <br>
+         <br>
+        <label for="end"><li> Endereço:</li></label>
+       <input type="text" id="end" size="35" required>
+        <br>
+        <br>
+        <label for="form"> <li> Formação:</li></label>
+       <input type="text" id="form" size="35" required>
+        <BR>
+        <BR>
+       <label for="exp"><li> Experiência Profissional:</li></label>
+       <textarea name="msg" cols="30" rows="10" required></textarea>
+       <br>
+       <br>
+       <label for="cr"> <li> Cursos Realizados:</li></label>
+      <textarea name="Cursos" cols="30" rows="10" required></textarea> 
+       </select>
+    </nav>
+    </fieldset>
+    <br>
+    <br>
+    <input type="submit" value="enviar" class="btn">
+    <input type="reset" value="Limpar" class="btn2">
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <!--rodapé da página-->
+    <footer>
+        <h5> &copy; 2023, Manara Moda Feminina </h5>
+        <div class="div"> 
+            <ul class="contato"> <h6>contato:</h6>
+                <li> (71) 98727-7055</li>
+                <li> marcelle.evelyn27@gmail.com</li>
+            </ul> 
+        <ul>
+            <h6> Redes sociais</h6>
+           
+            <a href="https://github.com/Marcelleevelyn"><img src="img/GitHub-Mark.png" class="imagemcon"  alt="github"></a>
+            <a href="https://wa.me/5571987277055"><img src="img/WhatsApp-icone-3.png" class="imagemcon"  alt="whatsapp"></a>
+        </ul>
+        <br>
+        <h6 class="rua">Rua Paraíba, 2- Salvador, Ba </h6>
+        </div>
+    </footer>
+</body>
+
+</html>

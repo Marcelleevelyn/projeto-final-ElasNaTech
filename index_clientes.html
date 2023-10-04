@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/M (1).png">
+    <title>Clientes</title>
+    <style>
+        body{
+          background-image: url(img/flores.jpg);
+          background-repeat: repeat;
+          
+          
+        }
+        /*Menu de navegação */
+        .menu li{
+    list-style-type: none;
+    background-color: #E8D3B6;
+    display: inline-block;
+    padding: 0;
+    border-left: 1px left #e3c097;
+}
+.menu{
+    background-color:transparent;
+    text-align: center;
+    list-style-type: none;
+    border: 1px right #e3c097;
+    font-weight: bold;
+    width:  100%;
+    margin-top: 2px;
+   
+
+}
+.menu a{
+    background-color: #a4614e;
+    padding: 7px 14px;
+    display: block;
+    text-decoration: none;
+    color: white;
+
+}
+.menu a:hover{
+    background-color: black;
+    color: #fff;
+    text-shadow: 0px 0px 5px  white;
+    text-decoration: none;
+}
+/*Logo da loja */
+.logo{
+    float: left;
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+   }  
+   /*Código do formulário*/ 
+     
+      h1{
+            font-family:'Courier New', Courier, monospace;
+            color: maroon;
+            text-align: center;
+            font-size: 30px;
+        }
+        h2{
+            font-family: 'Courier New', Courier, monospace;
+            color: maroon;
+            font-size: 30px;
+            padding: 12px;
+        }
+        legend{
+            color: maroon;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        label{
+            color:maroon;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .btn{
+            background-color: maroon;
+            color: white;
+            cursor: pointer;
+            width: fit-content;
+            box-sizing: border-box;
+            border: 10px solid maroon;
+        }
+        .btn2{
+            background-color: maroon;
+            color: white;
+            cursor: pointer;
+            width: fit-content;
+            box-sizing: border-box;
+            border: 10px solid maroon;
+        }
+        textarea{
+            resize: none;
+            background-color: #e8b3b6;
+            color:black;
+
+        }
+        form{
+            width: 1000px;
+            padding: 15px;
+        }
+        a{
+            font-family: Arial, Helvetica, sans-serif;
+            color: brown;
+
+        
+        }
+      /*código do rodapé da página*/
+        footer{
+            background-color: #a4614e;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    
+}
+.imagemcon{
+    width:40px;
+    height:40px;
+    margin-left:12px;
+}
+
+h5{
+    text-align: center;
+    color: white;
+}
+.div ul{
+    display: inline-block;
+}
+.div ul li{
+    display: block;
+}
+h6{
+    color: white;
+    font-size: 15px;
+}
+.contato{
+    color: white;
+}
+.rua{
+    margin-left: 10px;
+    text-align: center;
+}
+fieldset{
+    background-color: #e8d3b6;
+}
+/*Responsivo*/
+
+@media screen and (min-width: 480px) {
+    
+    
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 32px;
+    }
+   
+    legend{
+        font-size: 20px;
+    }
+    label{
+        font-size: 20px;
+    }
+    .btn{
+        font-size: 20px;
+        margin-right: 4px;
+    }
+    .btn2{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 20px ;
+    }
+    h6{
+        font-size: 20px;
+    }
+    .menu{
+        width: 900px;
+    }
+    footer{
+        width: 1020px;
+    }
+ }
+
+
+    </style>
+</head>
+<body>
+    <!--Menu de Navegação-->
+    <ul class="menu">
+        <li><a href="index.html" >Inicio </a></li>
+        <li><a href="produtos.html" > Produtos </a></li>
+        <li><a href="index_clientes.html"> Clientes</a></li>
+        <li><a href="404.html"> Fale Conosco</a></li>
+        <li><a href="index_sobre.html"> Manara</a></li>
+        <li> <a href="trabcn.html"> Trabalhe Conosco</a></li>
+
+  </ul>
+  <!--Logo da loja-->
+  <img  src="img/M (1).png" class="logo" alt="imagem da logo">
+    
+    <h1>Prezados Clientes. Sejam Bem vindos!</h1>
+    <br>
+    <br>
+    <br>
+    <h2>Para tornar os procedimentos de compras e aumentar o seu relacionamento com a nossa loja.<br>
+         Preencha os seus dados pessoais:
+    </h2>
+    <!--Código do formulário-->
+    <form action="#" method="get">
+
+        <fieldset>
+
+            <legend> Dados pessoais:</legend>
+            <br>
+            <br>
+            <label for="user"> Nome Completo:</label>
+            <input type="text" id="user" size="40" required>
+            <br>
+            <br>
+            <br>
+           <label for="dt"> Data de Nascimento: </label>
+            <input type="date" id="dt" required> 
+            <br>
+            <br>
+            <br>
+           <label for="RG"> RG:</label>
+            <input type="text" id="RG" required>
+            <br>
+            <br>
+            <br>
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" size="9" maxlength="9"> - <input type="text" name="cpf2" size="2" maxlength="2">
+            </fieldset>
+            <br>
+            <fieldset>
+                <Legend>Endereço:</Legend>
+                <br>
+                <br>
+                <label for="end">Rua:</label>
+                <input type="text" id="end" size="40">
+                <br>
+                <br>
+                <br>
+                <label for="nm">Número:</label>
+                <input type="number" id="nm" size="2">
+                <br>
+                <br>
+                <br>
+                <label for="Bai"> Bairro:</label>
+                <input type="text" id="Bai" size="5">
+                <br>
+                <br>
+                <br>
+                <label for="Estado"> Estado:</label>
+                <select name="Estado">
+
+                <option value="ac"> Acre</option>
+                <option value="Al"> Alagoas</option>
+                <option value="Am"> Amazonas</option>
+                <option value="Ap"> Amapá</option>
+                <option value="Ba"> Bahia</option>
+                <option value="Ce"> Ceará</option>
+                <option value="DF"> Distrito Federal</option>
+                <option value="Es"> Espírito Santo </option>
+                <option value="GO"> Goiás</option>
+                <option value="MA"> Maranhão</option>
+                <option value="MT"> Mato Grosso</option>
+                <option value="MS"> Mato Grosso Do Sul</option>
+                <option value="MG"> Minas Gerais</option>
+                <option value="PA"> Pará</option>
+                <option value="PB"> Paraíba</option>
+                <option value="PR"> Paraná</option>
+                <option value="PE"> Pernambuco</option>
+                <option value="PI"> Piauí</option>
+                <option value="RJ"> Rio De Janeiro</option>
+                <option value="RN"> Rio Grande Do Norte</option>
+                <option value="RO"> Rondônia </option>
+                <option value="RS"> Rio Grande Do Sul</option>
+                <option value="RR"> Roraima</option>
+                <option value="SC"> Santa Catarina</option>
+                <option value="SE"> Sergipe</option>
+                <option value="SP"> São Paulo</option>
+                <option value="TO"> Tocatins</option> 
+
+                </select>
+                <br>
+                <br>
+                <br>
+                <label for="cid"> Cidade:</label>
+                <input type="text" id="cid" size="5">
+                <br>
+                <br>
+                <br>
+                <label for="cep"> CEP:</label>
+                <input type="text" id="cep" size="5" maxlength="5"> - <input type="text" name="cep2" size="3" maxlength="3">
+               <br>
+            </fieldset>
+             <br>
+               <fieldset>
+                <legend> Login:</legend>
+                <br>
+                <br>
+                <label for="em"> Email:</label>
+                <input type="email" id="em" placeholder="meuemail@gmail.com" required>
+                <br>
+                <br>
+                <br>
+                <label for="nu"> Nome de Usuário:</label>
+                <input type="text" id="nu" size="20" required>
+                <br>
+                <br>
+                <br>
+                <label for="sen"> Senha:</label>
+                <input type="password" id="sen" size="20" required>
+                <br>
+                <br>
+                <br>
+                <label for="sen2"> Confirme a senha:</label>
+                <input type="password" id="sen2" size="20" required>
+                <br>
+                <br>
+                <br>
+               </fieldset>
+               <br>
+               <br>
+               <fieldset>
+
+                <legend> Quer deixar alguma sugestão?</legend>
+                <textarea name="msg" cols="30" rows="10" maxlength="500"></textarea>
+               </fieldset>
+               <br>
+               <br>
+
+                <input type="submit" value="enviar" class="btn">
+                <input type="reset" value="Limpar" class="btn2">
+                <br>
+                <br>
+               
+
+    
+    </form>  <!--Final do formulário-->
+     <!--Rodapé da página-->
+    <footer>
+        <h5> &copy; 2023, Manara Moda Feminina </h5>
+        <div class="div"> 
+            <ul class="contato"> <h6>contato:</h6>
+                <li> (71) 98727-7055</li>
+                <li> marcelle.evelyn27@gmail.com</li>
+            </ul> 
+        <ul>
+            <h6> Redes sociais</h6>
+            <a href="https://github.com/Marcelleevelyn"><img src="img/GitHub-Mark.png" class="imagemcon"  alt="github"></a>
+            <a href="https://wa.me/5571987277055"><img src="img/WhatsApp-icone-3.png" class="imagemcon"  alt="whatsapp"></a>
+        </ul>
+        <br>
+        <h6 class="rua">Rua Paraíba, 2- Salvador, Ba </h6>
+        </div>
+    </footer>
+</body>
+
+</html>

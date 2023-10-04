@@ -1,0 +1,195 @@
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    font-size: 400%;
+    margin-left: 500px;
+    
+}
+h2{
+    font-family: cursive;
+    font-size: 200%;
+    text-align: center;
+    color: white;
+    margin-left: 600px;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+    font-size:85px;
+    margin-left: 450px;
+}
+
+body{
+ background: url(img/vitrine.jpeg) #e3c097 no-repeat;
+ background-position: top;
+ background-repeat: repeat-x;
+ width: 700px;
+ margin:0;
+ 
+}
+.menu li{
+    list-style-type: none;
+    background-color: #E8D3B6;
+    display: inline-block;
+    padding: 0;
+    border-left: 1px left #e3c097;
+}
+.menu{
+    background-color:transparent;
+    text-align: center;
+    list-style-type: none;
+    border: 1px right #e3c097;
+    font-weight: bold;
+    width:  1300px;
+}
+.menu a{
+    background-color: #E8D3B6;
+    padding: 7px 14px;
+    display: block;
+    text-decoration: none;
+    color:#a4614e ;
+
+}
+.menu a:hover{
+    background-color: black;
+    color: #fff;
+    text-shadow: 0px 0px 5px blueviolet;
+    text-decoration: none;
+}
+h4{
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    margin-left: 550px;
+}
+.img-m{ 
+    width: 700px;
+    margin-left: 350px;
+    
+
+}
+.img-b{
+    width: 700px;
+    margin-left: 350px;
+}
+.img-c{
+    height: 700px;
+    width: 700px;
+    margin-left: 350px;
+}
+.bt{
+    background-color: maroon;
+    color: white;
+    cursor: pointer;
+    border: 10px solid maroon;
+    margin-left: 630px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    color: maroon;
+    margin-left: 650px;
+}
+b{
+    
+    color: maroon;
+    font-size: 15px;
+    margin-left: 300px;
+}
+input{
+    margin-left: 700px;
+}
+
+.img-lo{
+   margin-left:350px;
+   width:700px;
+}
+footer{
+    background-color: #a4614e;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    margin-left: 0;
+    margin-right: 200px;
+ 
+    
+     
+}
+
+.imagemcon{
+    width:40px;
+    height:40px;
+    margin-left:12px;
+}
+
+h5{
+    text-align: center;
+    color: white;
+}
+.links{
+    text-decoration: none;
+    color: white;
+} 
+.links a{
+    text-decoration: none;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+.div ul{
+    display: inline-block;
+}
+.div ul li{
+    display: block;
+}
+h6{
+    color: white;
+    font-size: 15px;
+}
+.contato{
+    color: white;
+}
+.rua{
+    margin-left: 10px;
+    text-align: center;
+}
+
+@media screen and (min-width: 480px){
+    body{
+         padding: 15px;
+    }
+    .menu{
+        font-size: 35px;
+        padding: 30px;
+    }
+    .img-lo{
+        width: 700px;
+        height: 680px;    
+      
+    }
+    p{
+        font-size: 50px;  
+        width: 100px;  
+    
+    }
+    .bt{
+        font-size: 50px;
+        width: 200px;
+    }
+    footer{
+       width: 1350px;  
+       height: 600px;
+    }
+    h5{
+        font-size: 30px;  
+    }
+  .contato{
+    font-size: 30px;
+  }
+  h6{
+    font-size: 30px;
+  }
+}
